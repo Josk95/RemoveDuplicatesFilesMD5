@@ -1,0 +1,167 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RemoveDuplicatedImages/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Json": "3.1.31"
+        },
+        "runtime": {
+          "RemoveDuplicatedImages.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration/3.1.31": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.31"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "3.1.31.0",
+            "fileVersion": "3.100.3122.51401"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.31": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.31"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "3.1.31.0",
+            "fileVersion": "3.100.3122.51401"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/3.1.31": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.31",
+          "Microsoft.Extensions.FileProviders.Physical": "3.1.31"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "assemblyVersion": "3.1.31.0",
+            "fileVersion": "3.100.3122.51401"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/3.1.31": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.31",
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.1.31"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll": {
+            "assemblyVersion": "3.1.31.0",
+            "fileVersion": "3.100.3122.51401"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.31": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.31"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "3.1.31.0",
+            "fileVersion": "3.100.3122.51401"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/3.1.31": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.31",
+          "Microsoft.Extensions.FileSystemGlobbing": "3.1.31"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "assemblyVersion": "3.1.31.0",
+            "fileVersion": "3.100.3122.51401"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/3.1.31": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "assemblyVersion": "3.1.31.0",
+            "fileVersion": "3.100.3122.51401"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.31": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.1.31.0",
+            "fileVersion": "3.100.3122.51401"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RemoveDuplicatedImages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Configuration/3.1.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Edrk9O36/1VeWNB93JRE8rxq/yyseOgrQO5aVzvA0gNQEo3O0TuyuGnXwEdRcAskBZFSMfcLlocu6bPpQCtKuA==",
+      "path": "microsoft.extensions.configuration/3.1.31",
+      "hashPath": "microsoft.extensions.configuration.3.1.31.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-apqvGW9hYd5khi23FQilW76SRqxzk3E5KraEQFN84imt0KREsGyUIvBG4vedIMORfdDtxgPaHdfl7vPs6nm5oQ==",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.31",
+      "hashPath": "microsoft.extensions.configuration.abstractions.3.1.31.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/3.1.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v1vKxwalC7rnKBWHUYwS4qMeGghrpypyTTXCRlYlA6PoSYulScHvSiwsJzr1YMyU+ePxnIqV72hT/+fkRGM2qA==",
+      "path": "microsoft.extensions.configuration.fileextensions/3.1.31",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.3.1.31.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/3.1.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NBrLqxeyBeI5pnr+UfTVQ9s4I15GsVm8+BomXxI6Y3IQ8t4wshAPb3JBbx3x9auxgP0kyNYRVjSzLhCt8JG2Sg==",
+      "path": "microsoft.extensions.configuration.json/3.1.31",
+      "hashPath": "microsoft.extensions.configuration.json.3.1.31.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vU8U0ow9zrLPvp9lfpPqkjzjo4rudvDPEtd2qWKYzz5eR8xSXpIINV7EbwOB1yYJBrOwwvt7HV51mVYGtg1vIQ==",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.1.31",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.3.1.31.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/3.1.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hr8KypAMwLYQHRfWXQqe6IBKlvmgBBsCyuT6WMP5LB5E0vv+pRUgEhQARX4t35d9McPIwiwqbX9JtChL803EJg==",
+      "path": "microsoft.extensions.fileproviders.physical/3.1.31",
+      "hashPath": "microsoft.extensions.fileproviders.physical.3.1.31.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/3.1.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eiMWJlWEfn9oHPiXLU9Xwsyv52KfQU+YP3gqiq/WZqy7gsucvUX58k8aMbdkb+kcDlm7Ie1M5taJ5by06VS57g==",
+      "path": "microsoft.extensions.filesystemglobbing/3.1.31",
+      "hashPath": "microsoft.extensions.filesystemglobbing.3.1.31.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.1.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ta9FclAg2bt7ay40o8ArAMaHKcyojq0eHzPdvZqe1hr28wGLWMSmqxglx1BGgrvY5H9lYiRrReFHovFYx+dsFQ==",
+      "path": "microsoft.extensions.primitives/3.1.31",
+      "hashPath": "microsoft.extensions.primitives.3.1.31.nupkg.sha512"
+    }
+  }
+}
